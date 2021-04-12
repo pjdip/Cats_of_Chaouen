@@ -1,0 +1,29 @@
+{
+  "name": "Cats_of_Chaouen",
+  "version": "1.0.0",
+  "description": "This is a mobile first web app intended to serve as the home page for the non-profit organization \"Cats of Chaouen\" based in Chefchaouen, Morocco.",
+  "main": "./client/src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "start": "node server.js",
+    "build": "cd client && npm run build",
+    "install": "cd client && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pjdip/Cats_of_Chaouen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pjdip/Cats_of_Chaouen/issues"
+  },
+  "homepage": "https://github.com/pjdip/Cats_of_Chaouen#readme",
+  "devDependencies": {
+    "concurrently": "^6.0.1",
+    "nodemon": "^2.0.7"
+  }
+}
