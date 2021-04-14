@@ -1,0 +1,20 @@
+{
+    "FAQ": [
+        {
+            "question": "This is the first FAQ question",
+            "answer": "This is the answer to the first FAQ question"
+        },
+        {
+            "question": "This is the second FAQ question",
+            "answer": "This is the answer to the second FAQ question"
+        },
+        {
+            "question": "This is the third FAQ question",
+            "answer": "This is the answer to the third FAQ question"
+        },
+        {
+            "question": "This is the fourth FAQ question",
+            "answer": "This is the answer to the fourth FAQ question"
+        }
+    ]
+}

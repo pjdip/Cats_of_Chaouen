@@ -14,3 +14,9 @@ const BitcoinDonation = ({ platform, address }) => {
 };
 
 export default BitcoinDonation;
+
+/* 
+https://miohtama.github.io/bitcoinaddress.js/
+https://stackoverflow.com/questions/25339587/how-do-i-generate-a-qr-code-for-a-bitcoin-address-with-amount
+https://codepen.io/maxcream/pen/QOoOLe
+ */
