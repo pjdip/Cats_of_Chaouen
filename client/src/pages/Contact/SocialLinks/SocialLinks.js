@@ -15,6 +15,13 @@ export default function SocialLinks () {
     return(
         <div className="LinksWrapper">
             {linkJSX}
+{/*             <a href="whatsapp://send?text=AskUsAnything&phone=212615491091">WhatsApp Link</a> */}
         </div>
     )
 }
+
+/*
+https://blog.toky.co/add-a-whatsapp-click-to-chat-button-to-your-website/
+https://fvdm.com/code/note-whatsapp-url-scheme
+https://www.codeproject.com/Questions/1189367/I-cant-open-whatsapp-api-on-javascript-link
+*/

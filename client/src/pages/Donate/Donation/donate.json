@@ -1,0 +1,26 @@
+{
+    "traditional": [
+        {
+            "platform": "Paypal",
+            "address": "https://bit.ly/CatLove3"
+        },
+        {
+            "platform": "Patreon",
+            "address": "https://www.patreon.com/oumfoundation"
+        },
+        {
+            "platform": "Go Fund Me",
+            "address": "https://gf.me/u/x4gmuk"
+        }
+    ],
+    "crypto": [
+        {
+            "platform": "Bitcoin",
+            "address": "bitcornAddress"
+        },
+        {
+            "platform": "Ethereum",
+            "address": "0xACF53DD3d1d136c08cE9f3e7dEBC2E09Ea5f4Cb0"
+        }
+    ]
+}

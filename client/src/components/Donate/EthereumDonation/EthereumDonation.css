@@ -1,0 +1,19 @@
+.CryptoDonation {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+.CryptoTitle {
+    display: flex;
+}
+
+.CryptoAddress {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+}
+
+.AddressClass {
+    max-width: fit-content;
+}
