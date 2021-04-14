@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { Card, CardContent, CardMedia, Typography } from "@material-ui/core";
 import { LinkedIn, Facebook } from "@material-ui/icons";
 import './TeamMemberCard.css';
@@ -10,25 +9,25 @@ const TeamMemberCard = function ({ image, name, bio, role, socials}) {
         if (socials.LinkedIn && socials.Facebook) {
             return (
                 <div>
-                    <Link to={socials.LinkedIn}>
+                    <a href={socials.LinkedIn} target="_blank" rel="noopener noreferrer">
                         <LinkedIn />
-                    </Link>
-                    <Link to={socials.Facebook}>
+                    </a>
+                    <a href={socials.Facebook} target="_blank" rel="noopener noreferrer">
                         <Facebook />
-                    </Link>
+                    </a>
                 </div>                
             )
         } else if (socials.LinkedIn && !socials.Facebook) {
             return (
-                <Link to={socials.LinkedIn}>
+                <a href={socials.LinkedIn} target="_blank" rel="noopener noreferrer">
                     <LinkedIn />
-                </Link>
+                </a>
             )
         } else if (socials.Facebook && !socials.LinkedIn) {
             return (
-                <Link to={socials.Facebook}>
+                <a href={socials.Facebook} target="_blank" rel="noopener noreferrer">
                     <Facebook />
-                </Link>
+                </a>
             )
         } else return;
     }

@@ -1,32 +1,33 @@
 {
-    "member1": {
-        "name": "Rachida Riffia",
-        "bio": "Rachida's Bio",
-        "role": "Leader person",
-        "imagePath": "./rachidaPic.jpeg",
-        "socials": {
-            "LinkedIn": "https://www.linkedin.com/in/philip-pj-dipaula/",
-            "Facebook": "https://www.facebook.com/pj.dipaula/"
+    "team": [
+        {
+            "name": "Rachida Riffia",
+            "bio": "Rachida's Bio",
+            "role": "Leader person",
+            "imagePath": "./rachidaPic.jpeg",
+            "socials": {
+                "LinkedIn": "https://www.linkedin.com/in/philip-pj-dipaula/",
+                "Facebook": "https://www.facebook.com/pj.dipaula/"
+            }
+        },
+        {
+            "name": "Philip Chaouni",
+            "bio": "Philip's Bio",
+            "role": "generalist, financier, website builder, honey",
+            "imagePath": "./pjPic.jpg",
+            "socials": {
+                "LinkedIn": "https://www.linkedin.com/in/philip-pj-dipaula/",
+                "Facebook": "https://www.facebook.com/pj.dipaula/"
+            }
+        },
+        {
+            "name": "Ash Chaouni",
+            "bio": "Ash's Bio",
+            "role": "generalist, carpenter, honey",
+            "imagePath": "./ashPic.jpeg",
+            "socials": {
+                "LinkedIn": "https://www.linkedin.com/in/philip-pj-dipaula/"
+            }
         }
-    },
-    "member2": {
-        "name": "Philip Chaouni",
-        "bio": "Philip's Bio",
-        "role": "generalist, financier, website builder, honey",
-        "imagePath": "./pjPic.jpg",
-        "socials": {
-            "LinkedIn": "https://www.linkedin.com/in/philip-pj-dipaula/",
-            "Facebook": "https://www.facebook.com/pj.dipaula/"
-        }
-    },
-    "member3": {
-        "name": "Ash Chaouni",
-        "bio": "Ash's Bio",
-        "role": "generalist, carpenter, honey",
-        "imagePath": "./ashPic.jpeg",
-        "socials": {
-            "LinkedIn": "https://www.linkedin.com/in/philip-pj-dipaula/",
-            "Facebook": "https://www.facebook.com/pj.dipaula/"
-        }
-    }
+    ]
 }

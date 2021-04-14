@@ -8,24 +8,24 @@ import FAQ from './pages/About/FAQ/FAQ';
 import Partners from './pages/About/Partners/Partners';
 import Team from './pages/About/Team/Team';
 
-import Contact_Form from './pages/Contact/Contact_Form/Contact_Form';
-import Location_Hours from './pages/Contact/Location_Hours/Location_Hours';
-import Social_Links from './pages/Contact/Social_Links/Social_Links';
+import ContactForm from './pages/Contact/ContactForm/ContactForm';
+import LocationHours from './pages/Contact/LocationHours/LocationHours';
+import SocialLinks from './pages/Contact/SocialLinks/SocialLinks';
 
 import Donation from './pages/Donate/Donation/Donation';
 import Fundraiser from './pages/Donate/Fundraiser/Fundraiser';
-import Monthly_Donation from './pages/Donate/Monthly_Donation/Monthly_Donation';
+import MonthlyDonation from './pages/Donate/MonthlyDonation/MonthlyDonation';
 
 import Careers from './pages/Involve/Careers/Careers';
 import Foster from './pages/Involve/Foster/Foster';
 import Volunteer from './pages/Involve/Volunteer/Volunteer';
 
 import Adoption from './pages/Services/Adoption/Adoption';
-import Community_Cats from './pages/Services/Community_Cats/Community_Cats';
-import Community_Dogs from './pages/Services/Community_Dogs/Community_Dogs';
-import Lost_Found from './pages/Services/Lost_Found/Lost_Found';
-import Spay_Neuter from './pages/Services/Spay_Neuter/Spay_Neuter';
-import Vaccine_Microchip from './pages/Services/Vaccine_Microchip/Vaccine_Microchip';
+import CommunityCats from './pages/Services/CommunityCats/CommunityCats';
+import CommunityDogs from './pages/Services/CommunityDogs/CommunityDogs';
+import LostFound from './pages/Services/LostFound/LostFound';
+import SpayNeuter from './pages/Services/SpayNeuter/SpayNeuter';
+import VaccineMicrochip from './pages/Services/VaccineMicrochip/VaccineMicrochip';
 
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
@@ -45,24 +45,24 @@ function App() {
           <Route exact path="/partners" component={Partners} />
           <Route exact path="/team" component={Team} />
 
-          <Route exact path="/contact_form" component={Contact_Form} />
-          <Route exact path="/location_hours" component={Location_Hours} />
-          <Route exact path="/social" component={Social_Links} />
+          <Route exact path="/contact_form" component={ContactForm} />
+          <Route exact path="/location_hours" component={LocationHours} />
+          <Route exact path="/social" component={SocialLinks} />
   
           <Route exact path="/donate" component={Donation} />
           <Route exact path="/fundraiser" component={Fundraiser} />
-          <Route exact path="/monthly" component={Monthly_Donation} />
+          <Route exact path="/monthly" component={MonthlyDonation} />
   
           <Route exact path="/careers" component={Careers} />
           <Route exact path="/foster" component={Foster} />
           <Route exact path="/volunteer" component={Volunteer} />
   
           <Route exact path="/adopt" component={Adoption} />
-          <Route exact path="/lost" component={Lost_Found} />
-          <Route exact path="/spay" component={Spay_Neuter} />
-          <Route exact path="/vax" component={Vaccine_Microchip} />
-          <Route exact path="/cats" component={Community_Cats} />
-          <Route exact path="/dogs" component={Community_Dogs} />
+          <Route exact path="/lost" component={LostFound} />
+          <Route exact path="/spay" component={SpayNeuter} />
+          <Route exact path="/vax" component={VaccineMicrochip} />
+          <Route exact path="/cats" component={CommunityCats} />
+          <Route exact path="/dogs" component={CommunityDogs} />
         </Switch>
         <Footer />
       </Router>

@@ -138,7 +138,7 @@ const Navbar = () => {
             >
                 {renderMenuItem("/contact_form", "Contact Form")}
                 {renderMenuItem("/location_hours", "Location/Hours")}
-                {renderMenuItem("/social", "Social")}
+                {renderMenuItem("/social", "Follow Us")}
             </Menu>
         )
     };
