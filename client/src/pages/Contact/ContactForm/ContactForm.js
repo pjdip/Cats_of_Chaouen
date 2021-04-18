@@ -4,7 +4,7 @@ import './ContactForm.css';
 
 export default function ContactForm () {
     return(
-        <div className="App-header">
+        <div>
             <h1>Cats of Chaouen Contact Form Page</h1>
             <img src={logo} className="App-logo" alt="logo" />
             <p>

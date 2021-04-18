@@ -1,5 +1,4 @@
 import React from 'react';
-/* import logo from '../../../logo_clear192.png'; */
 import './Mission.css';
 
 export default function Mission () {

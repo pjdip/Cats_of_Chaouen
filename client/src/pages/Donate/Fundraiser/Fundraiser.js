@@ -4,7 +4,7 @@ import './Fundraiser.css';
 
 export default function Fundraiser () {
     return(
-        <div className="App-header">
+        <div>
             <h1>Cats of Chaouen Fundraiser Page</h1>
             <img src={logo} className="App-logo" alt="logo" />
             <p>

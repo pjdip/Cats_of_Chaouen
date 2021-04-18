@@ -4,7 +4,7 @@ import './VaccineMicrochip.css';
 
 export default function VaccineMicrochip () {
     return(
-        <div className="App-header">
+        <div>
             <h1>Cats of Chaouen Vaccine/Microchip Page</h1>
             <img src={logo} className="App-logo" alt="logo" />
             <p>

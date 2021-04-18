@@ -4,7 +4,7 @@ import './MonthlyDonation.css';
 
 export default function MonthlyDonation () {
     return(
-        <div className="App-header">
+        <div>
             <h1>Cats of Chaouen Monthly Donation Page</h1>
             <img src={logo} className="App-logo" alt="logo" />
             <p>

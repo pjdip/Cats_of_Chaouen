@@ -4,7 +4,7 @@ import './CommunityCats.css';
 
 export default function CommunityCats () {
     return(
-        <div className="App-header">
+        <div>
             <h1>Cats of Chaouen Community Cats Page</h1>
             <img src={logo} className="App-logo" alt="logo" />
             <p>

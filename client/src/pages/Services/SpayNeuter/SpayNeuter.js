@@ -4,7 +4,7 @@ import './SpayNeuter.css';
 
 export default function SpayNeuter () {
     return(
-        <div className="App-header">
+        <div>
             <h1>Cats of Chaouen Spay/Neuter Page</h1>
             <img src={logo} className="App-logo" alt="logo" />
             <p>

@@ -13,7 +13,7 @@ export default function FAQ () {
     />);
 
     return(
-        <div className="App-header">
+        <div>
             <div className="FAQpanels">
                 {faqJSX}
             </div>

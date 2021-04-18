@@ -4,7 +4,7 @@ import './Blog.css';
 
 export default function Blog () {
     return(
-        <div className="App-header">
+        <div>
             <h1>Cats of Chaouen Blog Page</h1>
             <img src={logo} className="App-logo" alt="logo" />
             <p>

@@ -4,12 +4,11 @@ import './Volunteer.css';
 
 export default function Volunteer () {
     return(
-        <div className="App-header">
+        <div>
             <h1>Cats of Chaouen Volunteer Page</h1>
             <img src={logo} className="App-logo" alt="logo" />
             <p>
-                Welcome to Cats of Chaouen VOLUNTEER page.
-                We're delighted by your interest!
+                In order to volunteer, please contact us over email, whatsapp, social media, or our contact form
             </p>
         </div>
     )

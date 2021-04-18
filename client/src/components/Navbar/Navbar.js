@@ -118,6 +118,7 @@ const Navbar = () => {
             >
                 {renderMenuItem("/story", "Our Story")}
                 {renderMenuItem("/mission", "Our Mission")}
+                {renderMenuItem("/follow", "Follow Us")}
                 {renderMenuItem("/blog", "Blog")}
                 {renderMenuItem("/FAQ", "FAQ")}
                 {renderMenuItem("/partners", "Our Partners")}
@@ -136,9 +137,9 @@ const Navbar = () => {
                 open={isContactOpen}
                 onClose={handleMenuClose}
             >
-                {renderMenuItem("/contact_form", "Contact Form")}
-                {renderMenuItem("/location_hours", "Location/Hours")}
-                {renderMenuItem("/social", "Follow Us")}
+                {renderMenuItem("/contact", "Contact Form")}
+                {renderMenuItem("/location", "Location/Hours")}
+                {renderMenuItem("/message", "Email/WhatsApp")}
             </Menu>
         )
     };
